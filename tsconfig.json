@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    
+    "esModuleInterop": true,
+    "lib": [
+      "esnext",
+      "dom",
+    ],
+
+    // comment existing:
+    //"useDefineForClassFields": true,
+    //"resolveJsonModule": true,
+
+    // add new:
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "experimentalDecorators": true,
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ]
+}
