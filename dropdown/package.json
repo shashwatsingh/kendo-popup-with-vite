@@ -1,0 +1,41 @@
+{
+  "name": "app-with-kendo",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@progress/kendo-data-query": "^1.5.6",
+    "@progress/kendo-drawing": "^1.16.3",
+    "@progress/kendo-licensing": "^1.2.2",
+    "@progress/kendo-theme-bootstrap": "^5.3.1",
+    "@progress/kendo-vue-animation": "^3.2.4",
+    "@progress/kendo-vue-buttons": "^3.2.4",
+    "@progress/kendo-vue-dropdowns": "^3.2.4",
+    "@progress/kendo-vue-inputs": "^3.2.4",
+    "@progress/kendo-vue-intl": "^3.2.4",
+    "@progress/kendo-vue-layout": "^3.2.4",
+    "@progress/kendo-vue-progressbars": "^3.2.4",
+    "@progress/kendo-vue-tooltip": "^3.2.4",
+    "@vueuse/core": "^8.3.0",
+    "axios": "^0.26.1",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.5",
+    "vue-tsc": "^0.34.9"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@popperjs/core"
+      ]
+    }
+  }
+}
